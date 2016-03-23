@@ -72,7 +72,7 @@ Um tipo **CloudBlobClient** permite que você recupere objetos que representam c
 
 [AZURE.INCLUDE [armazenamento-contêiner-nomeando-regras-include](../../includes/storage-container-naming-rules-include.md)]
 
-Este exemplo mostra como criar um contêiner se ele ainda não existir:
+Este exemplo mostra como criar um contêiner se ainda não existir:
 
     // Retrieve storage account from connection string.
     CloudStorageAccount storageAccount = CloudStorageAccount.Parse(
